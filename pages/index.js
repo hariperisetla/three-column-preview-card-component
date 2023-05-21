@@ -99,7 +99,7 @@ export default function Home() {
             </section>
           </div>
         </div>
-        <footer className="font-sm text-black flex justify-center w-full py-2 text-[15px]">
+        <footer className="font-sm text-black md:absolute bottom-0 flex justify-center w-full py-2 text-[15px]">
           <span>
             Challenge by{" "}
             <Link
