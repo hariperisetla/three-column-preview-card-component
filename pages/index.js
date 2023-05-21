@@ -18,7 +18,7 @@ export default function Home() {
         />
       </Head>
       <main className="flex flex-col md:h-screen bg-very-light-gray justify-center items-center text-very-light-gray">
-        <div className="container max-w-4xl px-6 py-24">
+        <div className="container max-w-5xl px-6 py-24">
           <div className="grid grid-cols-1 md:grid-cols-3 h-[52vh]">
             {/* Sedans Section */}
             <section className="bg-bright-orange p-12 space-y-8 flex flex-col justify-between rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg">
