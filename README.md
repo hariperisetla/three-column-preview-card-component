@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Go to Repo](https://github.com/hariperisetla/three-column-preview-card-component)
+- Live Site URL: [Go to Live Site](https://hariperisetla-three-column-preview.netlify.app/)
 
 ## My process
 

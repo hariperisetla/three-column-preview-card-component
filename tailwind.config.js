@@ -13,6 +13,7 @@ module.exports = {
         "very-dark-cyan": "hsl(179, 100%, 13%)",
         "transparent-white": "hsla(0, 0%, 100%, 0.75)",
         "very-light-gray": "hsl(0, 0%, 95%)",
+        attribution: "hsl(228, 45%, 44%)",
       },
 
       fontFamily: {
