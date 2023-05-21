@@ -3,15 +3,28 @@ import SedanImg from "../images/icon-sedans.svg";
 import SuvImg from "../images/icon-suvs.svg";
 import LuxuryImg from "../images/icon-luxury.svg";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Three Column Preview Card Component</title>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png"
+        />
+      </Head>
       <main className="flex flex-col md:h-screen bg-very-light-gray justify-center items-center text-very-light-gray">
         <div className="container max-w-4xl px-6 py-24">
           <div className="grid grid-cols-1 md:grid-cols-3 h-[52vh]">
             {/* Sedans Section */}
-            <div className="bg-bright-orange p-12 space-y-8 flex flex-col justify-between rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg">
+            <div
+              role="sedans"
+              className="bg-bright-orange p-12 space-y-8 flex flex-col justify-between rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg"
+            >
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
@@ -37,7 +50,10 @@ export default function Home() {
               </div>
             </div>
             {/* SUVs Section */}
-            <div className="bg-dark-cyan p-12 space-y-8 flex flex-col justify-between">
+            <div
+              role="suvs"
+              className="bg-dark-cyan p-12 space-y-8 flex flex-col justify-between"
+            >
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
@@ -62,7 +78,10 @@ export default function Home() {
               </div>
             </div>
             {/* Luxury Section */}
-            <div className="bg-very-dark-cyan p-12 space-y-8 flex flex-col justify-between rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg">
+            <div
+              role="luxury"
+              className="bg-very-dark-cyan p-12 space-y-8 flex flex-col justify-between rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg"
+            >
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
