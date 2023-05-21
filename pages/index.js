@@ -21,10 +21,7 @@ export default function Home() {
         <div className="container max-w-4xl px-6 py-24">
           <div className="grid grid-cols-1 md:grid-cols-3 h-[52vh]">
             {/* Sedans Section */}
-            <div
-              role="sedans"
-              className="bg-bright-orange p-12 space-y-8 flex flex-col justify-between rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg"
-            >
+            <section className="bg-bright-orange p-12 space-y-8 flex flex-col justify-between rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg">
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
@@ -48,12 +45,9 @@ export default function Home() {
                   Learn More
                 </button>
               </div>
-            </div>
+            </section>
             {/* SUVs Section */}
-            <div
-              role="suvs"
-              className="bg-dark-cyan p-12 space-y-8 flex flex-col justify-between"
-            >
+            <section className="bg-dark-cyan p-12 space-y-8 flex flex-col justify-between">
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
@@ -76,12 +70,9 @@ export default function Home() {
                   Learn More
                 </button>
               </div>
-            </div>
+            </section>
             {/* Luxury Section */}
-            <div
-              role="luxury"
-              className="bg-very-dark-cyan p-12 space-y-8 flex flex-col justify-between rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg"
-            >
+            <section className="bg-very-dark-cyan p-12 space-y-8 flex flex-col justify-between rounded-bl-lg md:rounded-bl-none md:rounded-tr-lg rounded-br-lg">
               <div className="space-y-8">
                 <div className="relative w-16 h-12">
                   <Image
@@ -105,12 +96,12 @@ export default function Home() {
                   Learn More
                 </button>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </main>
 
-      <div className="font-sm text-black absolute bottom-0 flex justify-center w-full py-2 text-[15px]">
+      <footer className="font-sm text-black absolute bottom-0 flex justify-center w-full py-2 text-[15px]">
         <span>
           Challenge by{" "}
           <Link
@@ -130,7 +121,7 @@ export default function Home() {
           </Link>
           .
         </span>
-      </div>
+      </footer>
     </>
   );
 }
